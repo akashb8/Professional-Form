@@ -164,7 +164,7 @@ export const ContactForm: React.FC = () => {
                 value={formData.email}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                placeholder="[EMAIL_ADDRESS]"
+                placeholder="akash@company.com"
               />
             </div>
             {errors.email && <div className="error-message">{errors.email}</div>}
