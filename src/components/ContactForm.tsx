@@ -128,7 +128,7 @@ export const ContactForm: React.FC = () => {
                 value={formData.firstName}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                placeholder="Jane"
+                placeholder="Akash"
               />
             </div>
             {errors.firstName && <div className="error-message">{errors.firstName}</div>}
@@ -145,7 +145,7 @@ export const ContactForm: React.FC = () => {
                 value={formData.lastName}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                placeholder="Doe"
+                placeholder="Bhattacharyya"
               />
             </div>
             {errors.lastName && <div className="error-message">{errors.lastName}</div>}
@@ -164,7 +164,7 @@ export const ContactForm: React.FC = () => {
                 value={formData.email}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                placeholder="jane@company.com"
+                placeholder="[EMAIL_ADDRESS]"
               />
             </div>
             {errors.email && <div className="error-message">{errors.email}</div>}
