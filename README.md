@@ -34,10 +34,7 @@ react-professional-form/
 ├── public/
 ├── src/
 │   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   ├── types/
-│   ├── utils/
+    │   ├── ContactForm.tsx
 │   ├── App.tsx
 │   └── main.tsx
 │
@@ -98,4 +95,4 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Author
 
 Your Name
-https://github.com/your-username
+https://github.com/akashb8
